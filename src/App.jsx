@@ -5,7 +5,7 @@ import TaskForm from './components/TaskForm'; // ✅ Correct
 import FilterButtons from './components/FilterButtons'; // ✅ Correct
 import TaskList from './components/TaskList'; // ✅ Correct
 import TaskStats from './components/TaskStats'; // ✅ Correct
-import { useLocalStorage } from './hooks/useLocalStorage';
+import { useLocalStorage } from './hooks/UseLocalStorage';
 
 const TaskManager = () => {
   const [tasks, setTasks] = useLocalStorage('tasks', []);
